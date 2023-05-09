@@ -1,0 +1,146 @@
+ @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/*Formatação do CSS*/
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+
+ body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);;
+ }
+
+/*Declarando variaveis*/
+
+:root {
+   --color-primary: #fff7e7;
+   --color-secundary: #ecd6c6;
+   --color-assistant: #2f2325;
+}
+
+/*Header da pagina*/
+
+ .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+ }
+
+ .cabecalho-img {
+    height: 72px;
+ }
+ .cabecalho-menu {
+    display: flex;
+    gap: 32px;
+ }
+
+ .cabecalho-menu-item {
+    color: var(--color-primary);
+    font-family: 'sarala', sans-serif, arial;
+ }
+
+ /*Main da pagina*/
+
+ .conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid var(--color-primary);
+ }
+
+ .conteudo-principal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .img-conteudo {
+    height: 430px;
+ }
+
+ .box-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: baseline;
+ }
+
+ .titulo-conteudo {
+    font-family: 'righteous', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--color-primary);
+    line-height: 79px;
+ }
+
+ .subtitulo-conteudo {
+    font-family: 'sarala', sans-serif;
+    color: var(--color-primary);
+    font-size: 24px;
+    font-weight: 400;
+    
+    
+ }
+
+ .botao-conteudo {
+    background: var(--color-secundary);
+    border-radius: 20px;
+    width: 185px;
+    height: 67px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao-conteudo:hover {
+    cursor: pointer;
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.botao-conteudo {
+    color: var(--color-assistant);
+    font-family: 'sarala', sans-serif;
+    font-size: 24px;
+    width: 400;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.subtitulo-secundario {
+    border-top: 0.4px solid var(--color-primary);
+    padding-top: 48px;
+    font-family: 'righteous', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.texto-secundario {
+    font-size: 18px;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-secundary);
+}
+
+/*Footer da pagina*/
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid var(--color-primary);
+}
+
+.img-rodape {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
